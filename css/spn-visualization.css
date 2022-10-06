@@ -1,0 +1,23 @@
+#spn-visualization > .figure {
+  width: 350px;
+}
+
+#spn-visualization > .controls {
+  width: 350px;
+}
+
+#spn-visualization > .figure > .plaintext,
+#spn-visualization > .figure > .ciphertext {
+  margin-left: 32px;
+  margin-right: -3px;
+  letter-spacing: 6.5px;
+  font-size: 14px;
+}
+
+#spn-visualization > .controls > .plaintext-key-ciphertext input {
+  width: 2.5em;
+}
+
+#spn-visualization p {
+  text-indent: 0;
+}

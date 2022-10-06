@@ -1,0 +1,219 @@
+h1 { font-size: 2.5em; }
+h2 { font-size: 2em; }
+h3 { font-size: 1.5em; }
+h4 { font-size: 1.3em; }
+h5 { font-size: 1.2em; }
+
+#content {
+  flex: 3;
+  padding-left: 10em;
+  padding-right: 10em;
+  font-size: 1.1em;
+}
+
+#content p {
+  margin: 0;
+  text-indent: 0em;
+  line-height: 1.5em;
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+#content p + p {
+  text-indent: 2em;
+}
+
+#content a {
+  color: var(--link);
+}
+
+#content hr {
+	border: none;
+	border-top: 2px solid;
+	height: 0;
+	margin: 2em auto;
+	width: 50%;
+}
+
+#content span.section-num {
+  margin-right: 0.5em;
+  color: var(--second-text);
+}
+
+#content img:not(#logo),
+.visualization {
+  border: 2px solid var(--border);
+  background: var(--second-background);
+  padding: 1.5em;
+  align: right;
+}
+
+#content > header > img#logo {
+  margin-right: 3em;
+}
+
+#content > header {
+  display: flex;
+}
+
+#content > section > header > blockquote,
+#content > section > footer > blockquote{
+  width: 55%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#content > section > header > blockquote > cite,
+#content > section > footer > blockquote > cite {
+	display: block;
+  margin-top: 1em;
+  text-align: right;
+	font-style: normal;
+}
+
+#content > section > header > blockquote > p,
+#content > section > footer > blockquote > p {
+  text-align: justify;
+	font-style: italic;
+}
+
+#content table#xor {
+  width: 10em;
+}
+
+#content table#key-addition {
+  margin: 2em;
+}
+
+#content table#key-addition tr:nth-of-type(2) td:nth-of-type(2) {
+  border-bottom: 1px solid;
+}
+
+#content table#substitution {
+  width: 25em;
+}
+
+#content table#permutation-4 {
+  width: 11em;
+}
+
+#content table#permutation-16 {
+  width: 25em;
+}
+
+#content table#xor-input-table {
+  width: 15em;
+}
+
+#content table#xor-input-output-table,
+#content table#xor-input-output-table-0x5 {
+  width: 30em;
+}
+
+#content table#xor-appearances-table {
+  width: 15em;
+}
+
+#content table#toy-keys {
+  width: 40em;
+}
+
+#content table#xor-input-output-table tr td:nth-of-type(3),
+#content table#xor-input-output-table tr th:nth-of-type(3),
+
+#content table#xor-input-output-table-0x5 tr td:nth-of-type(3),
+#content table#xor-input-output-table-0x5 tr th:nth-of-type(3),
+
+#content table#toy-keys tr td:nth-of-type(4),
+#content table#toy-keys tr th:nth-of-type(4),
+#content table#toy-keys tr td:nth-of-type(8),
+#content table#toy-keys tr th:nth-of-type(8) {
+  border-right: 3px double black;
+}
+
+#content table#difference-distribution-table {
+  table-layout: fixed;
+  width: 30em;
+}
+
+#content table#difference-distribution-table th:nth-of-type(1) {
+  width: 4em;
+}
+
+#content table#difference-distribution-table tr:nth-of-type(1) th,
+#content table#difference-distribution-table tr:nth-of-type(2) th {
+  border-top: none;
+  border-bottom: none;
+}
+
+#content table#count-table {
+  width: 20em;
+}
+
+#content table#aes {
+  width: 20em;
+}
+
+#content table.monospaced-table {
+  font-family: monospace;
+  text-align: center;
+  margin: 2em;
+}
+
+#content table.monospaced-table,
+#content table.monospaced-table th,
+#content table.monospaced-table td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+#content table.math,
+#content table.math td {
+  border: none;
+}
+
+#content #pbox-svg {
+  width: 5em;
+  margin: 2em;
+}
+
+#content #pbox-svg text {
+  font-size: 20px;
+  font-family: monospace;
+}
+
+#content .highlight {
+  background: var(--second-background)
+}
+
+#content svg text {
+  font-size: 20px;
+  font-family: monospace;
+}
+
+#content svg .sub {
+  font-size: 13px;
+}
+
+#content #toy-dc-unfinished,
+#content #toy-dc-finished {
+  width: 600px;
+}
+
+#content #toy-dc-unfinished #mid-text text,
+#content #toy-dc-finished #mid-text text {
+  font-size: 12px;
+}
+
+#content #diff-trail {
+  width: 700px;
+}
+
+#content #aes {
+  width: 700px;
+}
+
+#content #bibliography li {
+  padding-left: 1.5em;
+  text-indent: -1.5em;
+}
